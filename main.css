@@ -1,8 +1,10 @@
 body{
+    padding-top:0;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 button {
@@ -12,6 +14,7 @@ h1{
     font-size: 40px;
     font-weight: lighter;
     letter-spacing: 3px;
+    margin-top:180px;
     margin-bottom: 2px;
 }
 .inputsection{
@@ -29,4 +32,15 @@ input{
 .adOption{
     margin-top:10px;
     background-color: green;
+}
+
+img{
+    width:100%;
+    height:300px;
+    object-fit: cover;
+    position : fixed;
+top : 0px;
+
+    
+    
 }
