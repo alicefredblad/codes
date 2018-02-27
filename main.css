@@ -1,0 +1,32 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: yellow;
+}
+h1{
+    font-size: 40px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    margin-bottom: 2px;
+}
+.inputsection{
+    width:400px;
+    margin:50px 0px 40px 0px;
+}
+.inputs{
+    width:inherit;
+    display:flex;
+    flex-direction:column;
+}
+input{
+    margin-top: 10px;
+}
+.adOption{
+    margin-top:10px;
+    background-color: green;
+}
