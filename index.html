@@ -7,13 +7,27 @@
     </head>
     <body>
         <img src="banner.jpg">
-        <h1>Help me choose between...</h1>
+        <h1 class="h1">Help me choose between...</h1>
         <div class="inputsection"> 
             <div class="inputs">
                 <input placeholder="Something..."></input>
             </div>
             <button class="adOption">Ad</button>
+            <button class="delete">Delete</button>
+            <div class="results"></div>
         </div>
-        <button>Go!</button>      
+        <button>Go!</button>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script>
+            $(function(){
+                $('.results').hide()
+
+                var add_input = function(){
+                    $('.inputs').append('<input></input>')
+                }
+                    $('.adOption').click(add_input)
+    });
+           
+        </script>      
     </body>
 </html>
